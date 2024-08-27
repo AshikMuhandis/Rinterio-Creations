@@ -102,7 +102,8 @@
             light.
           </p>
           <br />
-          <button class="bg-lime-200 px-6 py-3 text-xl font-extrabold rounded-[32px] border border-primary">
+          <button
+            class="hover:bg-primary bg-lime-200 px-6 py-3 text-xl font-extrabold rounded-[32px] border border-primary">
             View Details
             <i class="bg-primary rounded-full px-2 py-1.5 rotate-45 fa-solid fa-arrow-up"></i>
           </button>
@@ -112,14 +113,14 @@
   </header>
   <main>
     <!-- About Us section -->
-    <section class="relative my-20 bg-[#f4f4f4]">
+    <section class="relative mt-10 lg:mt-20 bg-[#f4f4f4]">
       <div class="absolute top-10 left-14 hidden lg:inline">
-        <img class="" src="./assets/vector.png" alt="" />
+        <img class="" src="./assets/Vector.png" alt="" />
       </div>
       <div class="w-10/12 pt-8 lg:pt-24 mx-auto lg:flex lg:justify-between">
         <div class="max-w-lg">
           <div class="lg:block flex justify-center">
-            <button class="bg-white text-base font-bold px-4 py-2 mb-4 rounded-full">
+            <button class="hover:bg-primary bg-white text-base font-bold px-4 py-2 mb-4 rounded-full">
               <i class="mx-1 fa-solid fa-arrow-right"></i> About Us
             </button>
           </div>
@@ -167,7 +168,7 @@
           </div>
         </div>
         <div>
-          <img class="object-cover h-64 w-full lg:h-auto rounded-2xl" src="./assets/rectangle.png" alt="" />
+          <img class="object-cover h-64 w-full lg:h-auto rounded-2xl" src="./assets/Rectangle.png" alt="" />
         </div>
       </div>
       <!-- client section -->
@@ -208,12 +209,12 @@
       <div class="mb-7 w-10/12 mx-auto">
         <div class="max-w-2xl mx-auto text-center">
           <div class="lg:block flex justify-center">
-            <button class="bg-white text-base font-bold px-4 py-2 mb-4 rounded-full">
+            <button class="hover:bg-primary bg-white text-base font-bold px-4 py-2 mb-4 rounded-full">
               <i class="mx-1 fa-solid fa-arrow-right"></i>How we works
             </button>
           </div>
           <div class="text-center">
-            <h2 class="mb-5 text-[40px] tracking-tight font-extrabold">
+            <h2 class="mb-5 text-3xl lg:text-[40px] tracking-tight font-extrabold">
               Our Works Process
             </h2>
             <p class="text-base font-medium text-semi_dark">
@@ -225,7 +226,7 @@
         </div>
       </div>
       <div>
-        <div class="my-8 lg:pb-20 grid grid-cols-1 lg:grid-cols-4 gap-6 w-10/12 mx-auto">
+        <div class="my-5 lg:pb-20 grid grid-cols-1 lg:grid-cols-4 gap-6 w-10/12 mx-auto">
 
           <div class="bg-[#e7c1d3] p-6 rounded-2xl">
             <div class="mb-2">
@@ -263,7 +264,87 @@
         </div>
       </div>
     </section>
+
+    <!-- input form section -->
+    <section style="background-image: url(./assets/bg.jpg); background-repeat: no-repeat;
+       background-size: cover;">
+      <div class="w-10/12 mx-auto pb-8">
+        <div class="mb-7 w-10/12 mx-auto">
+          <div class="max-w-2xl mx-auto text-center">
+            <div class="lg:block flex justify-center pt-8 lg:pt-24">
+              <button class="hover:bg-primary bg-lime-100 text-base font-bold px-4 py-2 mb-4 rounded-full">
+                <i class="mx-1 fa-solid fa-arrow-right"></i> Let’s Connect
+              </button>
+            </div>
+            <div class="text-center">
+              <h2 class="mb-5 text-[40px] tracking-tight font-extrabold">
+                Let’s Discuss Next Project
+              </h2>
+              <p class="text-base font-medium text-semi_dark">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- input feld -->
+        <div class="w-10/12 mx-auto">
+          <form class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div>
+              <input type="text" placeholder="First Name*" class="w-full p-4 lg:p-5 outline-primary rounded-full ">
+            </div>
+            <div>
+              <input type="text" placeholder="Last Name*" class="w-full p-4 lg:p-5 outline-primary rounded-full ">
+            </div>
+            <div>
+              <input type="number" placeholder="Phone Number*" class="w-full p-4 lg:p-5 outline-primary rounded-full ">
+            </div>
+            <div>
+              <input type="email" placeholder="Email Number*" class="w-full p-4 lg:p-5 outline-primary rounded-full ">
+            </div>
+            <div class="lg:col-span-2">
+              <textarea class="w-full rounded-3xl outline-primary p-5" rows="6"
+                placeholder="Write your message here"></textarea>
+            </div>
+            <button class=" border-none btn bg-primary text-xl rounded-full font-extrabold lg:col-span-2 ">
+              Send Mail
+              <i class="text-2xl rotate-45 fa-solid fa-circle-arrow-up"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
+  <footer class="mt-3 py-16 footer footer-center text-white bg-[#1c1c1c] text-base-content rounded p-10">
+    <div class="navbar-center flex">
+      <img class="bg-primary rounded-2xl px-2 py-2 -rotate-190" src="./assets/arrow.png" alt="">
+      <a class="ml-1 text-3xl font-extrabold">Rinterio</a>
+    </div>
+    <p class="max-w-2xl text-light text-base font-medium">The barn house captivates with its blend of rustic charm and
+      modern
+      sophistication,
+      featuring
+      weathered wood,
+      sleek metal accents.
+    </p>
+    <nav class="grid lg:grid-flow-col gap-8 lg:gap-28 text-base font-medium">
+      <a class="link link-hover">Home</a>
+      <a class="link link-hover">Service</a>
+      <a class="link link-hover">Portfolio</a>
+      <a class="link link-hover">Blogs</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+
+    <div class="navbar-center ">
+      <a class="border-none btn bg-primary text-xl rounded-full font-extrabold">Book Consult
+        <i class="text-2xl rotate-45 fa-solid fa-circle-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+  </footer>
 </body>
 
 </html>
